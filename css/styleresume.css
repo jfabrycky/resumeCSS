@@ -27,3 +27,11 @@ a:hover {color: white;}
 #title {clear: left;
  color: black;
  font-family: "Helvetica";}
+
+.work, .skills, .education, .awards {background-color: white;
+  box-sizing: content-box;
+  width: 50%;
+  margin: 50px 50px;
+  padding: 50px 50px;
+  float: left;
+  }
