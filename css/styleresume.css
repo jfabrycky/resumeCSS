@@ -6,19 +6,29 @@
 body {max-width: 960px;
   margin: auto;
   font-family: "Arial";
-  background-color: #f7efd2;}
+  background-color: #f7efd2;
+}
 
 ul {list-style-type: none;
-  margin: auto;}
+  margin-left: 9.6em;
+  text-align: center;/*
+  box-sizing: border-box;
+  width=100%;
+  background-color: white;*/
+  align-items: center;
+}
 
-ul li {float: left;}
+.links {text-align: center;}
+
+ul li {float: left;
+}
 
 ul li a {display:block;
-  padding:20px 40px;
+  padding:2em 4em;
   text-decoration: none;
   color: #cd8b62;
-  margin:5px 5px;
-  border-radius:5px;
+  margin:0.5em 0.5em;
+  border-radius:0.5em;
   background-color: #475c6c;
 }
 
@@ -29,36 +39,50 @@ div {float: left;}
 #title {clear: left;
  color: black;
  font-family: "Helvetica";
- margin: auto;}
+ margin: auto;
+ text-align: center;}
 
 .work {background-color: white;
   box-sizing: border-box;
   width: 45%;
-  margin: 30px 30px;
-  padding: 20px 20px;
+  margin: 3em 3em;
+  padding: 2em 2em;
   float: left;
   }
 
 .skills {background-color: white;
     box-sizing: border-box;
     width: 35%;
-    margin: 30px 30px;
-    padding: 20px 20px;
+    margin: 3em 3em;
+    padding: 2em 2em;
     float: right;
     }
 
 .education {background-color: white;
   box-sizing: border-box;
   width: 45%;
-  margin: 30px 30px;
-  padding: 20px 20px;
+  margin: 3em 3em;
+  padding: 2em 2em;
   float: left;
   }
 
 .awards {background-color: white;
   box-sizing: border-box;
   width: 35%;
-  margin: 30px 30px;
-  padding: 20px 20px;
+  margin: 3em 3em;
+  padding: 2em 2em;
   float: right;
   }
+
+footer{
+  clear: both;
+  text-align: center;
+  box-sizing: content-box;
+  width: 40%;
+  padding: 0em 18em;
+  background-color: white;
+  position: inherit;
+  bottom: 0;
+  left: 0;
+  margin-left: 4%
+}
