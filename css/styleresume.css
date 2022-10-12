@@ -24,14 +24,41 @@ ul li a {display:block;
 
 a:hover {color: white;}
 
+div {float: left;}
+
 #title {clear: left;
  color: black;
- font-family: "Helvetica";}
+ font-family: "Helvetica";
+ margin: auto;}
 
-.work, .skills, .education, .awards {background-color: white;
-  box-sizing: content-box;
-  width: 50%;
-  margin: 50px 50px;
-  padding: 50px 50px;
+.work {background-color: white;
+  box-sizing: border-box;
+  width: 45%;
+  margin: 30px 30px;
+  padding: 20px 20px;
   float: left;
+  }
+
+.skills {background-color: white;
+    box-sizing: border-box;
+    width: 35%;
+    margin: 30px 30px;
+    padding: 20px 20px;
+    float: right;
+    }
+
+.education {background-color: white;
+  box-sizing: border-box;
+  width: 45%;
+  margin: 30px 30px;
+  padding: 20px 20px;
+  float: left;
+  }
+
+.awards {background-color: white;
+  box-sizing: border-box;
+  width: 35%;
+  margin: 30px 30px;
+  padding: 20px 20px;
+  float: right;
   }
