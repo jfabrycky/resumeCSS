@@ -13,16 +13,49 @@ ul {list-style-type: none;
 ul li {float: left;
 }
 
-ul li a {display:block;
-  padding:2em 4em;
+ul li .webpage {display:block;
+  padding:2em 3em;
   text-decoration: none;
   color: #cd8b62;
   margin:0.5em 0.5em;
   border-radius:0.5em;
   background-color: #475c6c;
+  font-size: 20px;
 }
 
-a:hover {color: white;}
+.webpage:hover {color: white;}
+
+ul li .favComposer {color: #475c6c;}
+
+ul li .favComposer:hover {color: #8a8583;}
+
+.header{
+  clear: both;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  margin-left: 0em;
+  margin-top: 20em;
+}
+
+.title{
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  margin: 5em 0em;
+}
+
+.favComposer{
+  box-sizing: border-box;
+  margin: 2em 3em;
+  width: 4em;
+  height: 5em;
+}
+
+.musicvid{
+  display: block;
+  margin: auto;
+}
 
 footer{
   clear: both;

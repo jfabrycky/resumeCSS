@@ -24,12 +24,14 @@ ul li {float: left;
 }
 
 ul li a {display:block;
-  padding:2em 4em;
+  box-sizing: border-box;
+  padding:2em 3em;
   text-decoration: none;
   color: #cd8b62;
   margin:0.5em 0.5em;
   border-radius:0.5em;
   background-color: #475c6c;
+  font-size: 20px;
 }
 
 a:hover {color: white;}
