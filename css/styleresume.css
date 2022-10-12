@@ -5,7 +5,8 @@
 
 body {max-width: 960px;
   margin: auto;
-  font-family: "NotoSans";}
+  font-family: "Arial";
+  background-color: #f7efd2;}
 
 ul {list-style-type: none;
   margin: auto;}
@@ -15,9 +16,10 @@ ul li {float: left;}
 ul li a {display:block;
   padding:20px 40px;
   text-decoration: none;
-  color: red;
+  color: #cd8b62;
   margin:5px 5px;
-  background-color: blue;
+  border-radius:5px;
+  background-color: #475c6c;
 }
 
 a:hover {color: white;}
