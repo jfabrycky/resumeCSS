@@ -1,11 +1,14 @@
-@font-face {
-    font-family: noto;
-    src: url("fonts/Noto_Sans/NotoSans-Regular");
-}
+/*@font-face {
+    font-family: "Noto_Sans";
+    src: link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">/*"../fonts/Noto_Sans/NotoSans-Regular.ttf";
+}*/
+
 
 body {max-width: 960px;
   margin: auto;
-  font-family: "Arial";
+  font-family: "NotoSans", sans-serif;
   background-color: #f7efd2;
 }
 
@@ -50,6 +53,7 @@ div {float: left;}
   margin: 3em 3em;
   padding: 2em 2em;
   float: left;
+  /*font-family: "Noto_Sans";*/
   }
 
 .skills {background-color: white;
