@@ -1,0 +1,396 @@
+body {max-width: 960px;
+  margin: auto;
+  font-family: "Arial";
+  background-color: #f7efd2;
+}
+
+#navbar-container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+ul {list-style-type: none;
+  /*margin-left: 9.6em;*/
+  margin: 0 auto;
+  padding: 0 0;
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+}
+
+ul li .navigation {float: left;
+}
+
+ul li .navigation {display:inline-block;
+  /*padding:2em 3em;*/
+  padding:2em 3em;
+  text-decoration: none;
+  color: #cd8b62;
+  margin:0.5em 0.5em;
+  border-radius:0.5em;
+  background-color: #475c6c;
+  font-size: 20px;
+  float: left;
+}
+
+ul li .navigation:hover {
+  color: #faf6e6;
+}
+
+
+a:hover {color: white;}
+
+#title {clear: left;
+ color: black;
+ font-family: "Helvetica";
+ margin: auto;
+ text-align: center;}
+
+.work {background-color: white;
+  box-sizing: border-box;
+  width: 45%;
+  margin: 3em 3em;
+  padding: 2em 2em;
+  float: left;
+  /*font-family: "Noto_Sans";*/
+  }
+
+.skills {background-color: white;
+    box-sizing: border-box;
+    width: 35%;
+    margin: 3em 3em;
+    padding: 2em 2em;
+    }
+
+.education {background-color: white;
+  box-sizing: border-box;
+  width: 45%;
+  margin: 3em 3em;
+  padding: 2em 2em;
+  float: left;
+  }
+
+.awards {background-color: white;
+  box-sizing: border-box;
+  width: 35%;
+  margin: 3em 3em;
+  padding: 2em 2em;
+  }
+
+.month {text-align: center;
+  font-size: 20px;
+  margin: auto;
+  /*clear: left;*/
+}
+
+.birdpic {align-items: center;
+  display: block;
+  margin: auto;
+}
+
+.bird-description{background-color: white;
+  box-sizing: border-box;
+  width: 45%;
+  margin: 3em 3em;
+  padding: 2em 2em;
+  float: left;
+}
+
+ul li .webpage {display:block;
+  padding:2em 3em;
+  text-decoration: none;
+  color: #cd8b62;
+  margin:0.5em 0.5em;
+  border-radius:0.5em;
+  background-color: #475c6c;
+  font-size: 20px;
+}
+
+.webpage:hover {color: white;}
+
+ul li .favComposer {color: #2046a1;}
+
+ul li .favComposer:hover {color: #7398e3;}
+
+.header{
+  clear: both;
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  margin-left: 0em;
+  margin-top: 20em;
+}
+
+.title{
+  text-align: center;
+  margin: auto;
+  box-sizing: border-box;
+  margin: 8em 8em;
+}
+
+.musicvid{
+  display: block;
+  margin: auto;
+}
+
+.composer-wikis{
+  margin: 0 12em;
+}
+
+ul li .favComposer {color: #1d2c93;
+  text-decoration: none;
+  display:inline-block;
+  padding:1em 1em;
+  margin:0.5em 0.5em;
+  border-radius:0.5em;
+  background-color: #57d32a;
+  font-size: 20px;
+  float: left;
+}
+
+ul li .favComposer:hover {color: #6272e0;}
+
+.composers-header {clear: left;
+ color: black;
+ font-family: "Helvetica";
+ margin: auto;
+ text-align: center;}
+
+.musicvid{
+  display: block;
+  margin: auto;
+}
+
+footer{
+  clear: both;
+  text-align: center;
+  box-sizing: content-box;
+  width: 40%;
+  padding: 0em 18em;
+  background-color: white;
+  position: inherit;
+  bottom: 0;
+  left: 0;
+  margin-left: 4%
+}
+
+@media screen and (min-width: 460px) {
+  body {max-width: 460px;
+    margin: auto;
+    font-family: "Arial";
+    background-color: #f7efd2;
+  }
+  .skills{
+    float: left;
+  }
+  .awards{
+    float: left;
+  }
+  .skills, .awards, .work, .education{
+    width: 80%;
+  }
+
+  #navbar-container {
+    width: 460px;
+    margin: 0 2em;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  ul{margin: 0;}
+
+  ul li{display: inline-block;
+  float: left;}
+
+  ul li .navigation {display:inline-block;
+    /*padding:2em 3em;*/
+    padding:1em 1em;
+    text-decoration: none;
+    color: #cd8b62;
+    margin:0.5em 0.5em;
+    border-radius:0.5em;
+    background-color: #475c6c;
+    font-size: 20px;
+  }
+
+  #title{box-sizing: content-box;
+  width: 10em;
+  margin-left: 3em;}
+
+  body{max-width: 500px;
+  margin-left: 0em;}
+
+  footer{padding: 0em 12em;}
+
+  ul li {float: none;}
+
+  .birdpic {align-items: center;
+    display: block;
+    margin: 0 1em;
+  }
+
+  .month {text-align: center;
+    font-size: 20px;
+    margin: 2em 14em;
+  }
+
+  .composer-wikis{
+    margin: 0;
+  }
+
+  ul li .favComposer {color: #1d2c93;
+    text-decoration: none;
+    display:inline-block;
+    padding:0.5em 0.5em;
+    margin:5em 0;
+    border-radius:0.5em;
+    background-color: #57d32a;
+    font-size: 20px;
+    float: left;
+  }
+
+  .composer-wikis{
+    margin: 0 3em;
+  }
+
+  .page-title{
+    margin: 0 4em;
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 700px){
+  body {max-width: 960px;
+    margin: auto;
+    font-family: "Arial";
+    background-color: #f7efd2;
+  }
+
+  footer{padding: 0em 17em;}
+
+  #title{box-sizing: content-box;
+  width: 10em;
+  margin-left: 5em;}
+
+  #navbar-container {
+    width: 700px;
+    margin: 0 0;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  ul{margin: 0;}
+
+  ul li{display: inline-block;
+  float: left;}
+
+  ul li .navigation {display:inline-block;
+    /*padding:2em 3em;*/
+    padding:2em 3em;
+    text-decoration: none;
+    color: #cd8b62;
+    margin:0.5em 0.5em;
+    border-radius:0.5em;
+    background-color: #475c6c;
+    font-size: 20px;
+  }
+
+  #title {
+   margin: 0 6em;
+   text-align: center;}
+
+   .skills, .awards, .work, .education{
+     width: 80%;
+   }
+
+   .birdpic {align-items: center;
+     display: block;
+     margin: 0 3em;
+   }
+
+   .month {text-align: center;
+     font-size: 20px;
+     margin: 2em 16em;
+   }
+
+   .composer-wikis{
+     margin: 0 9em;
+   }
+
+   ul li .favComposer {color: #1d2c93;
+     text-decoration: none;
+     display:inline-block;
+     padding:0.5em 0.5em;
+     margin: 0.5em 0.5em;
+     border-radius:0.5em;
+     background-color: #57d32a;
+     font-size: 20px;
+     float: left;
+   }
+
+   .page-title{
+     margin: 0 8em;
+     font-size: 25px;
+   }
+}
+
+@media screen and (min-width: 1000px){
+  body {max-width: 960px;
+    margin: auto;
+    font-family: "Arial";
+    background-color: #f7efd2;
+  }
+
+  .skills, .awards{
+    float: right;
+  }
+
+  body{max-width: 960px;
+  margin: auto;}
+
+  #title {
+   margin: auto;
+   text-align: center;}
+
+   #navbar-container {
+     width: 1000px;
+     margin: 0 auto;
+     overflow: hidden;
+     text-align: center;
+   }
+
+   ul li {float: left;}
+
+   footer{padding: 0em 18em;}
+
+   .work, .education{
+     width: 45%;
+   }
+
+   .skills, .awards{
+     width: 35%;
+   }
+
+   ul li .navigation {display:inline-block;
+     /*padding:2em 3em;*/
+     padding:2em 3em;
+     text-decoration: none;
+     color: #cd8b62;
+     margin:0.5em 0.5em;
+     border-radius:0.5em;
+     background-color: #475c6c;
+     font-size: 20px;
+   }
+
+   .birdpic {align-items: center;
+     display: block;
+     margin: auto;
+   }
+
+   .page-title{
+     margin: 0 14em;
+     font-size: 25px;
+   }
+}
